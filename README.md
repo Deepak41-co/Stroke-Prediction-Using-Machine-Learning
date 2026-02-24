@@ -35,7 +35,7 @@ Smoking status
 
 Stroke (target variable)
 
-*Target Variable*: 
+### Target Variable: 
 
 0 → No Stroke
 
@@ -60,7 +60,7 @@ joblib
 Streamlit
 
 ## 🔎 Project Workflow
-1️⃣ *Data Exploration*
+### 1️⃣ Data Exploration
 
 Loaded dataset and inspected structure
 
@@ -72,7 +72,7 @@ Visualized class distribution
 
 Examined feature relationships using correlation analysis
 
-2️⃣ *Data Preprocessing*
+#### 2️⃣ Data Preprocessing
 
 Handled missing values (BMI column treatment)
 
@@ -82,7 +82,7 @@ Scaled numerical features
 
 Split dataset into training and testing sets
 
-3️⃣ *Handling Class Imbalance*
+#### 3️⃣ Handling Class Imbalance
 
 Applied SMOTE (Synthetic Minority Oversampling Technique)
 
@@ -90,13 +90,13 @@ Resampled training data only
 
 Improved recall performance for minority (stroke) class
 
-4️⃣ *Feature Selection*
+#### 4️⃣ Feature Selection
 
 Used SelectKBest with statistical scoring
 
 Selected top contributing features for modeling
 
-5️⃣ *Model Training & Comparison*
+#### 5️⃣ Model Training & Comparison
 
 The following models were trained and evaluated:
 
@@ -112,7 +112,7 @@ Support Vector Classifier
 
 Bernoulli Naive Bayes
 
-6️⃣ *Model Evaluation*
+#### 6️⃣ Model Evaluation
 
 Models were evaluated using:
 
@@ -134,5 +134,5 @@ Special attention was given to performance on the minority (Stroke = 1) class.
 
 The final trained model was saved using joblib and deployed as a web application using Streamlit.
 
-*Deployed link*:https://stroke-prediction-using-machine-learning.streamlit.app/ 
+#### Deployed link:https://stroke-prediction-using-machine-learning.streamlit.app/ 
 

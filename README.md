@@ -60,7 +60,7 @@ joblib
 Streamlit
 
 ## 🔎 Project Workflow
-### 1️⃣ Data Exploration
+#### 1️⃣ Data Exploration
 
 Loaded dataset and inspected structure
 
